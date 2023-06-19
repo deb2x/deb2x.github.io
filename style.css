@@ -1,0 +1,164 @@
+*  {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.div1 {
+    width: 100%;
+    height: 800px;
+    background-image: url(dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro {
+     font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+    text-shadow: blue 3px 3px 3px;
+}
+.p1 {
+      margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    font-family: Brush Script MT;
+    text-shadow: red  1px 1px 1px;
+}
+
+button {
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 15px 17px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 5px solid #fff;q
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.div2 {
+    width:100%;
+    height: 800px;
+    background-image: url(dog2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.intro2 {
+    padding-left: 800px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: violet 4px 4px 4px;
+}
+
+.list {
+    padding-left: 850px;
+    padding-top: 40px;
+    font-size: 27px;
+    color: #fff;
+    text-shadow: black 2px 2px 2px;
+}
+
+.con  {
+    padding-left: 800px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 30px;
+    text-shadow: #d4ca11  4px 4px 4px;
+}
+
+.con2 {
+    padding-left: 850px;
+    padding-top: 30px;
+    font-size: 27px;
+    color: #fff;
+    text-shadow: black 2px 2px 2px;
+}
+
+.div3 {
+    width: 100%;
+    height: 800px;
+    background-image: url(dog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ABOUT{
+    text-align: center;
+    color: #fff;
+    text-shadow: black 4px 4px 4px;
+}
+.p2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+.map {
+    padding-left: 600px;
+    padding-top: 30px;
+}
+.contact {
+    color: black;
+    padding-top: 10px;
+    padding-left: 400px;
+    text-shadow: 3px 3px 5px white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav {
+    width: 85%;
+    margin: auto;
+    padding: 5px  0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo  {
+    width: 150px;
+    cursor: pointer;
+    padding: 0;
+    margin:0;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: .5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+    
+}
